@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import accountImg from '../../assets/account.png'
 import basketImg from '../../assets/basket.png'
 
