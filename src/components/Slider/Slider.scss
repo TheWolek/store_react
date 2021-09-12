@@ -1,0 +1,37 @@
+.sliderContainer {
+    width: 85%;
+    overflow-x: hidden;
+    padding: 2em 0;
+    margin: 0 auto;
+    position: relative;
+
+    .sliderContent {
+        .slide {
+            width: 100%;
+            height: 400px;
+            background: url("https://via.placeholder.com/1600x400");
+        }
+    }
+
+    .sliderNav {
+        position: absolute;
+        bottom: 2.5em;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 40px;
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        .sliderNavDot {
+            width: 18px;
+            height: 18px;
+            background: rgba(128, 128, 128, 0.8%);
+            border-radius: 50%;
+
+            &.active {
+                background: rgba(0, 0, 0, 0.8%);
+            }
+        }
+    }
+}
