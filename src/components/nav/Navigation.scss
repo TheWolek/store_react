@@ -1,0 +1,28 @@
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: baseline;
+
+        li + li {
+            margin-left: 1em;
+        }
+
+        li:first-child {
+            color: red;
+            text-transform: uppercase;
+            font-size: 1.2em;
+        }
+
+        li {
+            font-weight: bold;
+        }
+
+        li:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
